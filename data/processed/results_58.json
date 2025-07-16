@@ -1,0 +1,5438 @@
+[
+    {
+        "algorithm": "GA",
+        "totalResponseTime": 3.0531,
+        "aveResponseTime": 0.2035,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.6861,
+        "algorithmRuntime": 5398.2718,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.1689,
+                "service2": 0.1846,
+                "service3": 0.1994,
+                "service4": 0.1738,
+                "service5": 0.1607,
+                "service6": 0.2159,
+                "service7": 0.1854,
+                "service8": 0.1662,
+                "service9": 0.1803,
+                "service10": 0.2298,
+                "service11": 0.2632,
+                "service12": 0.2607,
+                "service13": 0.2191,
+                "service14": 0.1677,
+                "service15": 0.2774
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "PSO",
+        "totalResponseTime": 3.1747,
+        "aveResponseTime": 0.2116,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.6834,
+        "algorithmRuntime": 2962.9988,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.1655,
+                "service2": 0.1854,
+                "service3": 0.1893,
+                "service4": 0.1712,
+                "service5": 0.1864,
+                "service6": 0.2041,
+                "service7": 0.1808,
+                "service8": 0.1831,
+                "service9": 0.1973,
+                "service10": 0.2346,
+                "service11": 0.2736,
+                "service12": 0.2571,
+                "service13": 0.2345,
+                "service14": 0.2453,
+                "service15": 0.2665
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "PSOGA",
+        "totalResponseTime": 2.9825,
+        "aveResponseTime": 0.1988,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.6777,
+        "algorithmRuntime": 4205.1389,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.1651,
+                "service2": 0.194,
+                "service3": 0.206,
+                "service4": 0.1489,
+                "service5": 0.1899,
+                "service6": 0.1996,
+                "service7": 0.1845,
+                "service8": 0.1755,
+                "service9": 0.172,
+                "service10": 0.175,
+                "service11": 0.2416,
+                "service12": 0.2307,
+                "service13": 0.2198,
+                "service14": 0.2055,
+                "service15": 0.2744
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "GAPSO",
+        "totalResponseTime": 3.0369,
+        "aveResponseTime": 0.2025,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.6802,
+        "algorithmRuntime": 4075.681,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.1667,
+                "service2": 0.1905,
+                "service3": 0.1909,
+                "service4": 0.1599,
+                "service5": 0.1837,
+                "service6": 0.1859,
+                "service7": 0.185,
+                "service8": 0.1836,
+                "service9": 0.2011,
+                "service10": 0.2393,
+                "service11": 0.2328,
+                "service12": 0.2353,
+                "service13": 0.2034,
+                "service14": 0.1995,
+                "service15": 0.2793
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "NCOGA",
+        "totalResponseTime": 3.5045,
+        "aveResponseTime": 0.2336,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.7283,
+        "algorithmRuntime": 1.3375,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.1827,
+                "service2": 0.2124,
+                "service3": 0.1954,
+                "service4": 0.1861,
+                "service5": 0.1975,
+                "service6": 0.169,
+                "service7": 0.18,
+                "service8": 0.2217,
+                "service9": 0.2564,
+                "service10": 0.2311,
+                "service11": 0.3453,
+                "service12": 0.2376,
+                "service13": 0.2665,
+                "service14": 0.3564,
+                "service15": 0.2664
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "TCA",
+        "totalResponseTime": 4.0513,
+        "aveResponseTime": 0.2701,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.4121,
+        "algorithmRuntime": 0.0384,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.2513,
+                "service2": 0.2584,
+                "service3": 0.2406,
+                "service4": 0.2138,
+                "service5": 0.2117,
+                "service6": 0.2167,
+                "service7": 0.1897,
+                "service8": 0.2279,
+                "service9": 0.355,
+                "service10": 0.3634,
+                "service11": 0.3222,
+                "service12": 0.3006,
+                "service13": 0.252,
+                "service14": 0.2995,
+                "service15": 0.3485
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "LP",
+        "totalResponseTime": 4.0661,
+        "aveResponseTime": 0.2711,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 3.4544,
+        "algorithmRuntime": 0.0792,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.2363,
+                "service2": 0.23,
+                "service3": 0.3254,
+                "service4": 0.2667,
+                "service5": 0.2191,
+                "service6": 0.2268,
+                "service7": 0.2713,
+                "service8": 0.2033,
+                "service9": 0.2557,
+                "service10": 0.2456,
+                "service11": 0.3628,
+                "service12": 0.3157,
+                "service13": 0.2708,
+                "service14": 0.3105,
+                "service15": 0.3261
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 10
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "MP",
+        "totalResponseTime": 4.5297,
+        "aveResponseTime": 0.302,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 2.0068,
+        "algorithmRuntime": 0.1833,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.1921,
+                "service2": 0.258,
+                "service3": 0.3481,
+                "service4": 0.3892,
+                "service5": 0.2175,
+                "service6": 0.2315,
+                "service7": 0.3135,
+                "service8": 0.2944,
+                "service9": 0.4019,
+                "service10": 0.3487,
+                "service11": 0.3434,
+                "service12": 0.2968,
+                "service13": 0.2589,
+                "service14": 0.2474,
+                "service15": 0.3883
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 14
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 13
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 11
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 12
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    },
+    {
+        "algorithm": "MDS",
+        "totalResponseTime": 4.747,
+        "aveResponseTime": 0.3165,
+        "platformReliability": 1,
+        "serviceReliability": 1,
+        "computingNodesEntropy": 2.981,
+        "algorithmRuntime": 0.2098,
+        "responseTimePerService": {
+            "resTimePerService": {
+                "service1": 0.2513,
+                "service2": 0.2852,
+                "service3": 0.2984,
+                "service4": 0.2381,
+                "service5": 0.2185,
+                "service6": 0.1996,
+                "service7": 0.3493,
+                "service8": 0.2905,
+                "service9": 0.4259,
+                "service10": 0.4564,
+                "service11": 0.3443,
+                "service12": 0.3732,
+                "service13": 0.3841,
+                "service14": 0.2579,
+                "service15": 0.3743
+            },
+            "platReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            },
+            "servReliability": {
+                "service1": 1,
+                "service2": 1,
+                "service3": 1,
+                "service4": 1,
+                "service5": 1,
+                "service6": 1,
+                "service7": 1,
+                "service8": 1,
+                "service9": 1,
+                "service10": 1,
+                "service11": 1,
+                "service12": 1,
+                "service13": 1,
+                "service14": 1,
+                "service15": 1
+            }
+        },
+        "finalSolution": [
+            {
+                "serviceID": 1,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 23
+            },
+            {
+                "serviceID": 1,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 1,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 1,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 1,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 2,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 24
+            },
+            {
+                "serviceID": 2,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 2,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 2,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 1
+            },
+            {
+                "serviceID": 2,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 3,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 25
+            },
+            {
+                "serviceID": 3,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 3,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 3,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 3,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 4,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 26
+            },
+            {
+                "serviceID": 4,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 4,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 4,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 4,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 5,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 27
+            },
+            {
+                "serviceID": 5,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 5,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 6,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 6,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 3
+            },
+            {
+                "serviceID": 6,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 28
+            },
+            {
+                "serviceID": 6,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 7,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 29
+            },
+            {
+                "serviceID": 7,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 7,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 2
+            },
+            {
+                "serviceID": 7,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            },
+            {
+                "serviceID": 8,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 30
+            },
+            {
+                "serviceID": 8,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 8,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 8,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 8,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 22
+            },
+            {
+                "serviceID": 9,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 9,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 31
+            },
+            {
+                "serviceID": 9,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 9,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 15
+            },
+            {
+                "serviceID": 10,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 32
+            },
+            {
+                "serviceID": 10,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 10,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 10,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 16
+            },
+            {
+                "serviceID": 11,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 33
+            },
+            {
+                "serviceID": 11,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 4
+            },
+            {
+                "serviceID": 11,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 5
+            },
+            {
+                "serviceID": 11,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 11,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 17
+            },
+            {
+                "serviceID": 12,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 34
+            },
+            {
+                "serviceID": 12,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 12,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 12,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 6
+            },
+            {
+                "serviceID": 12,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 18
+            },
+            {
+                "serviceID": 13,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 13,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 13,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 13,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 35
+            },
+            {
+                "serviceID": 13,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 19
+            },
+            {
+                "serviceID": 14,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 36
+            },
+            {
+                "serviceID": 14,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 14,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 7
+            },
+            {
+                "serviceID": 14,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 14,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 14,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 20
+            },
+            {
+                "serviceID": 15,
+                "componentID": 1,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 2,
+                "versionID": 1,
+                "nodeID": 8
+            },
+            {
+                "serviceID": 15,
+                "componentID": 3,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 4,
+                "versionID": 1,
+                "nodeID": 37
+            },
+            {
+                "serviceID": 15,
+                "componentID": 5,
+                "versionID": 1,
+                "nodeID": 9
+            },
+            {
+                "serviceID": 15,
+                "componentID": 6,
+                "versionID": 1,
+                "nodeID": 21
+            }
+        ]
+    }
+]

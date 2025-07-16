@@ -1,0 +1,62 @@
+
+python version 7
+
+ 1. ساخت و فعال‌سازی محیط:
+
+bash
+Copy
+Edit
+conda create -n ncoenv python=3.7
+conda activate ncoenv
+✅ 2. نصب پکیج‌های مورد نیاز:
+برای جلوگیری از مشکل سازگاری بین نسخه‌ها، این ترتیب رو دنبال کن:
+
+📦 نصب PyTorch (CPU یا GPU؟)
+اگر از CPU استفاده می‌کنی:
+
+bash
+Copy
+Edit
+pip install torch==1.13.1 torchvision==0.14.1
+اگر از GPU با CUDA 11.6 استفاده می‌کنی (و کارت گرافیکت سازگاره):
+
+bash
+Copy
+Edit
+pip install torch==1.13.1+cu116 torchvision==0.14.1+cu116 -f https://download.pytorch.org/whl/torch_stable.html
+📦 نصب torch_geometric
+bash
+Copy
+Edit
+pip install torch-scatter -f https://data.pyg.org/whl/torch-1.13.1+cpu.html
+pip install torch-sparse -f https://data.pyg.org/whl/torch-1.13.1+cpu.html
+pip install torch-geometric
+اگر از GPU استفاده می‌کنی به‌جای +cpu.html از +cu116.html استفاده کن. بگو تا دقیق‌تر بنویسم.
+ بررسی محیط پایتونی که استفاده می‌کنی
+تو ترمینال بزن:
+
+bash
+Copy
+Edit
+C:/ProgramData/Miniconda3.7/python.exe -m pip list
+و ببین torch_geometric توش هست یا نه.
+
+2. نصب torch_geometric برای همان پایتونی که استفاده می‌کنی
+همون دستور رو با پایتون دقیق اجرا کن:
+
+bash
+Copy
+Edit
+C:/ProgramData/Miniconda3.7/python.exe -m pip install torch_geometric
+📦 نصب سایر پکیج‌ها:
+bash
+Copy
+Edit
+pip install numpy pyyaml tensorflow==2.9 tensorboard_logger
+نسخه‌ی TensorFlow باید با Python 3.7 سازگار باشه. نسخه‌ی 2.9 امن و سازگار با PyTorch 1.13.1 هست.
+
+✅ 3. چک کن که همه چیز نصب شده:
+bash
+Copy
+Edit
+python -c "import torch, torch_geometric, yaml, numpy, tensorflow, tensorboard_logger; print('✅ All packages imported successfully!')"

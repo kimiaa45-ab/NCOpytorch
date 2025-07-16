@@ -1,0 +1,33 @@
+{'serviceID': 11, 'components': [{'componentID': 1, 'characteristics': {'cpu': 189, 'memory': 695, 'dataSize': 1.2, 'disk': 1568.2, 'reliabilityScore': 1}}, {'componentID': 2, 'characteristics': {'cpu': 166, 'memory': 402, 'dataSize': 3.6, 'disk': 2312.3, 'reliabilityScore': 1}}, {'componentID': 3, 'characteristics': {'cpu': 157, 'memory': 658, 'dataSize': 3.2, 'disk': 1653.8, 'reliabilityScore': 1}}, {'componentID': 4, 'characteristics': {'cpu': 100, 'memory': 434, 'dataSize': 1.4, 'disk': 1478.9, 'reliabilityScore': 1}}, {'componentID': 5, 'characteristics': {'cpu': 130, 'memory': 518, 'dataSize': 2.2, 'disk': 2150.8, 'reliabilityScore': 1}}, {'componentID': 6, 'characteristics': {'cpu': 129, 'memory': 525, 'dataSize': 2.5, 'disk': 2697.6, 'reliabilityScore': 1}}], 'userID': 33, 'helperID': 17}, {'serviceID': 12, 'components': [{'componentID': 1, 'characteristics': {'cpu': 147, 'memory': 608, 'dataSize': 4.5, 'disk': 2266.6, 'reliabilityScore': 1}}, {'componentID': 2, 'characteristics': {'cpu': 191, 'memory': 528, 'dataSize': 3.6, 'disk': 2328.6, 'reliabilityScore': 1}}, {'componentID': 3, 'characteristics': {'cpu': 164, 'memory': 568, 'dataSize': 3.7, 'disk': 2232.7, 'reliabilityScore': 1}}, {'componentID': 4, 'characteristics': {'cpu': 134, 'memory': 462, 'dataSize': 1.7, 'disk': 1480.8, 'reliabilityScore': 1}}, {'componentID': 5, 'characteristics': {'cpu': 163, 'memory': 584, 'dataSize': 3, 'disk': 2646.2, 'reliabilityScore': 1}}, {'componentID': 6, 'characteristics': {'cpu': 146, 'memory': 481, 'dataSize': 3.5, 'disk': 2332.7, 'reliabilityScore': 1}}], 'userID': 34, 'helperID': 18}, {'serviceID': 13, 'components': [{'componentID': 1, 'characteristics': {'cpu': 195, 'memory': 509, 'dataSize': 1.5, 'disk': 2416.8, 'reliabilityScore': 1}}, {'componentID': 2, 'characteristics': {'cpu': 126, 'memory': 392, 'dataSize': 4.3, 'disk': 2619.7, 'reliabilityScore': 1}}, {'componentID': 3, 'characteristics': {'cpu': 181, 'memory': 542, 'dataSize': 4, 'disk': 1617.6, 'reliabilityScore': 1}}, {'componentID': 4, 'characteristics': {'cpu': 184, 'memory': 663, 'dataSize': 1.1, 'disk': 2423.7, 'reliabilityScore': 1}}, {'componentID': 5, 'characteristics': {'cpu': 111, 'memory': 446, 'dataSize': 3.5, 'disk': 1682.7, 'reliabilityScore': 1}}, {'componentID': 6, 'characteristics': {'cpu': 158, 'memory': 490, 'dataSize': 4.3, 'disk': 1999.2, 'reliabilityScore': 1}}], 'userID': 35, 'helperID': 19}, {'serviceID': 14, 'components': [{'componentID': 1, 'characteristics': {'cpu': 180, 'memory': 640, 'dataSize': 3.2, 'disk': 1957.7, 'reliabilityScore': 1}}, {'componentID': 2, 'characteristics': {'cpu': 177, 'memory': 568, 'dataSize': 3.4, 'disk': 2251.7, 'reliabilityScore': 1}}, {'componentID': 3, 'characteristics': {'cpu': 140, 'memory': 529, 'dataSize': 1.8, 'disk': 2663.4, 'reliabilityScore': 1}}, {'componentID': 4, 'characteristics': {'cpu': 151, 'memory': 537, 'dataSize': 1.7, 'disk': 2162.6, 'reliabilityScore': 1}}, {'componentID': 5, 'characteristics': {'cpu': 106, 'memory': 669, 'dataSize': 3.3, 'disk': 2629.2, 'reliabilityScore': 1}}, {'componentID': 6, 'characteristics': {'cpu': 103, 'memory': 425, 'dataSize': 4.1, 'disk': 2151.2, 'reliabilityScore': 1}}], 'userID': 36, 'helperID': 20}, {'serviceID': 15, 'components': [{'componentID': 1, 'characteristics': {'cpu': 161, 'memory': 545, 'dataSize': 4.9, 'disk': 2601.8, 'reliabilityScore': 1}}, {'componentID': 2, 'characteristics': {'cpu': 121, 'memory': 402, 'dataSize': 2.7, 'disk': 2488.5, 'reliabilityScore': 1}}, {'componentID': 3, 'characteristics': {'cpu': 124, 'memory': 386, 'dataSize': 3.3, 'disk': 2724, 'reliabilityScore': 1}}, {'componentID': 4, 'characteristics': {'cpu': 164, 'memory': 691, 'dataSize': 2.1, 'disk': 1596.5, 'reliabilityScore': 1}}, {'componentID': 5, 'characteristics': {'cpu': 163, 'memory': 602, 'dataSize': 3.9, 'disk': 2224.6, 'reliabilityScore': 1}}, {'componentID': 6, 'characteristics': {'cpu': 147, 'memory': 589, 'dataSize': 3.6, 'disk': 2669, 'reliabilityScore': 1}}], 'userID': 37, 'helperID': 21}] <class 'list'>
+Services Edge (componentConnections): [[0, 1, 1, 1, 1, 1], [0, 0, 0, 1, 1, 1], [0, 0, 0, 0, 1, 1], [0, 0, 0, 0, 1, 0], [0, 0, 0, 0, 0, 1], [0, 0, 0, 0, 0, 0]] <class 'list'>
+
+
+Loading 128 JSON file pairs from data/processed...
+100%|████████████████████████████████████████████████████████████████████████████████| 128/128 [00:07<00:00, 17.66it/s] 
+Dataset size: 128
+Services data keys: ['helper_ids', 'user_ids', 'x', 'edge_attr', 'service_ids', 'edge_index']
+Services helper_ids: shape torch.Size([90]), dtype torch.int64
+Services user_ids: shape torch.Size([90]), dtype torch.int64
+Services x: shape torch.Size([90, 5]), dtype torch.float32
+Services edge_attr: shape torch.Size([30]), dtype torch.float32
+Services service_ids: shape torch.Size([90]), dtype torch.int64
+Services edge_index: shape torch.Size([2, 30]), dtype torch.int64
+Nodes data keys: ['x', 'edge_attr', 'node_tiers', 'node_ids', 'edge_index']
+Nodes x: shape torch.Size([14, 5]), dtype torch.float32
+Nodes edge_attr: shape torch.Size([196]), dtype torch.float32
+Nodes node_tiers: shape torch.Size([14]), dtype torch.int64
+Nodes node_ids: shape torch.Size([14]), dtype torch.int64
+Nodes edge_index: shape torch.Size([2, 196]), dtype torch.int64
+Services batch keys: ['helper_ids', 'user_ids', 'x', 'edge_attr', 'service_ids', 'edge_index']
+Services batch helper_ids shape: torch.Size([90])
+Services batch user_ids shape: torch.Size([90])
+Services batch x shape: torch.Size([90, 5])
+Services batch edge_attr shape: torch.Size([30])
+Services batch service_ids shape: torch.Size([90])
+Services batch edge_index shape: torch.Size([2, 30])
+Nodes batch keys: ['x', 'edge_attr', 'node_tiers', 'node_ids', 'edge_index']
+Nodes batch x shape: torch.Size([14, 5])
+Nodes batch edge_attr shape: torch.Size([196])
+Nodes batch node_tiers shape: torch.Size([14])
+Nodes batch node_ids shape: torch.Size([14])
+Nodes batch edge_index shape: torch.Size([2, 196])

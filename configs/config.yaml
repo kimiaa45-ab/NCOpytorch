@@ -1,0 +1,24 @@
+model:
+  num_epochs: 50
+  num_samples: 128
+  num_test_sample: 10 
+  num_layers: 4
+  gpu_hidden_dim: 128  # Default for GPU
+  device: auto  # Automatically select GPU if available, else CPU
+  cpu_hidden_dim: 32  # Hidden dimension if running on CPU
+  charnum_service: 15 # Number of services per instance
+  charnum_s: 5 # Number of services components characteristics
+  charnum_n: 4 # Number of computing nodes characteristics
+  charnum_se: 1 # Number of services edge characteristics
+  charnum_ne: 2 # Number of computing nodes edge characteristics
+  charnum_node: 14 # Number of computing nodes per instance
+  charnum_component: 6 # Number of component per service per instance
+  charnum_user: 15 # Number of user nodes per instance
+  charnum_helper: 8 # Number of helper nodes per instance
+  n_heads: 4 # Number of heads for attention
+  w_m: 0.1 # Weight for memory
+  w_d: 0.1 # Weight for disk
+  batch_size: 128 # Batch size
+  n_encode_layers: 4 # Number of encoder layers
+  n_decode_layers: 4 # Number of decoder layers
+  n_decode_layers: 4 # Number of decoder layers
